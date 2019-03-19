@@ -1,0 +1,28 @@
+/*styles for my aia tables*/
+
+
+table {
+    width: 80%;
+    margin: auto;
+    border: 1px solid black;
+    border-collapse:  collapse;
+    margin-bottom: 2em;
+}
+
+table.client th {
+    width: 25%;
+    font-weight: normal;
+    font-variant: small-caps;
+    background-color: #ccc;
+}
+
+table.audience th {
+    background-color: #000;
+    color: #fff;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 0.5em;
+}
+
